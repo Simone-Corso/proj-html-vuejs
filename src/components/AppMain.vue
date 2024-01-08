@@ -1,5 +1,6 @@
 <template>
-    <!--realizzerò con dei container ripetute più volte, perchè sono uguali come metodo.-->
+    <!--realizzerò con dei container ripetute più volte, perchè sono uguali come metodo.
+    in futuro dividerò in diversi componenti-->
     <div class="main-category">
         <div class="container-business-growth">
             <div class="container-image-business">
@@ -37,9 +38,9 @@
     </div>
     </div>
 
-    <div class="consultant">
+    <div class="main-consultant">
         <div class="container-consultant">
-            
+
         </div>
     </div>
 </template>
@@ -140,6 +141,18 @@ export default {
         height: 200px;
         width: 100%;
         border: 2px solid black;
+
+    }
+
+    .main-consultant{
+        height: 100px;
+        width: 80%;
+        border: 2px solid orangered;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        
 
     }
 </style>
