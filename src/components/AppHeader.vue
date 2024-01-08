@@ -1,5 +1,6 @@
 <template>
     <header>
+        <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
         <Section class="navigation">
             <div class="container-avada-consultant">
 
@@ -16,7 +17,8 @@ export default {
 }
 </script>
 <style scoped>
-    h2{
-        color: black;
+    .navigation{
+        height: 100px;
+        border: 2px solid red;
     }
 </style>
