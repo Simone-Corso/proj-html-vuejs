@@ -1,10 +1,18 @@
 <template>
     <div>
         <div class="container-business-growth">
-            <div class="container-image-Business">
+            <div class="container-image-business">
 
             </div>
             <div class="container-descrzione-brand">
+
+            </div>
+        </div>
+        <div class="container-investors-people">
+            <div class="container-descrizione-house">
+
+            </div>
+            <div class="container-image-house">
 
             </div>
         </div>
@@ -23,7 +31,7 @@ export default {
         display: flex;
 
     }
-    .container-image-Business{
+    .container-image-business{
         height: 100%;
         width: 50%;
         border: 2px solid blue;
@@ -33,6 +41,25 @@ export default {
         height: 100%;
         width: 50%;
         border: 2px solid blue;
+
+    }
+
+    .container-investors-people{
+        height: 900px;
+        border: 2px solid yellow;
+        display: flex;
+
+    }
+    .container-descrizione-house{
+        height: 100%;
+        width: 50%;
+        border: 2px solid yellow;
+
+    }
+    .container-image-house{
+        height: 100%;
+        width: 50%;
+        border: 2px solid yellow;
 
     }
 </style>
