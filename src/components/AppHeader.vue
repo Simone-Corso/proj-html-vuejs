@@ -7,7 +7,7 @@
 
                 </div>
                 <div class="container-Richard">
-                    
+
                 </div>
 
             </div>
@@ -29,6 +29,18 @@ export default {
     }
     .container-bg-image{
         height: 800px;
+        border: 2px solid red;
+    }
+
+    .container-unlock{
+        width: 50%;
+        height: 100%;
+        border: 2px solid red;
+    }
+
+    .container-Richard{
+        width: 50%;
+        height: 100%;
         border: 2px solid red;
     }
 </style>
