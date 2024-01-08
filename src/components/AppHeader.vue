@@ -3,6 +3,12 @@
         <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
         <Section class="navigation-avada-consultant">
             <div class="container-bg-image">
+                <div class="container-unlock">
+
+                </div>
+                <div class="container-Richard">
+                    
+                </div>
 
             </div>
 
