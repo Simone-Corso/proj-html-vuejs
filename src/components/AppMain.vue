@@ -27,7 +27,12 @@
         </div>
     </div>
     <div class="container-brand">
-        
+        <div class="container-title-brand">
+
+        </div>
+        <div class="container-different-brand">
+            
+        </div>
     </div>
 </template>
 <script>
