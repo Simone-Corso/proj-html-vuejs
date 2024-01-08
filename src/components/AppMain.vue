@@ -1,4 +1,5 @@
 <template>
+    <!--realizzerò con dei container ripetute più volte, perchè sono uguali come metodo.-->
     <div>
         <div class="container-business-growth">
             <div class="container-image-business">
