@@ -21,4 +21,8 @@ export default {
         height: 100px;
         border: 2px solid red;
     }
+    .container-bg-image{
+        height: 800px;
+        border: 2px solid red;
+    }
 </style>
