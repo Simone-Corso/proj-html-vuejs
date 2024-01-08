@@ -26,13 +26,15 @@
             </div>
         </div>
     </div>
+    <div class="main-brand">
     <div class="container-brand">
         <div class="container-title-brand">
 
         </div>
         <div class="container-different-brand">
-            
+
         </div>
+    </div>
     </div>
 </template>
 <script>
@@ -105,5 +107,18 @@ export default {
         width: 50%;
         border: 2px solid green;
 
+    }
+
+    .main-brand{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .container-brand{
+        height: 350px;
+        width: 80%;
+        border: 2px solid black;
+        
     }
 </style>
