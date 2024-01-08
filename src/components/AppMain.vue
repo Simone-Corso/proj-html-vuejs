@@ -1,6 +1,6 @@
 <template>
     <!--realizzerò con dei container ripetute più volte, perchè sono uguali come metodo.-->
-    <div>
+    <div class="main-category">
         <div class="container-business-growth">
             <div class="container-image-business">
 
@@ -25,6 +25,8 @@
 
             </div>
         </div>
+    </div>
+    <div class="container-brand">
         
     </div>
 </template>
@@ -34,8 +36,17 @@ export default {
 }
 </script>
 <style scoped>
+
+    .main-category{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .container-business-growth{
         height: 900px;
+        width: 80%;
         border: 2px solid blue;
         display: flex;
 
