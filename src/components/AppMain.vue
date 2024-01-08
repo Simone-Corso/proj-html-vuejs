@@ -70,4 +70,23 @@ export default {
         border: 2px solid yellow;
 
     }
+
+    .container-social-media-analysis{
+        height: 900px;
+        border: 2px solid green;
+        display: flex;
+
+    }
+    .container-image-social{
+        height: 100%;
+        width: 50%;
+        border: 2px solid green;
+
+    }
+    .container-descrizione-social-proof{
+        height: 100%;
+        width: 50%;
+        border: 2px solid green;
+
+    }
 </style>
