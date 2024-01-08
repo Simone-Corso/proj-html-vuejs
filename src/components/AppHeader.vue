@@ -1,18 +1,17 @@
 <template>
     <header>
         <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
-        <Section class="navigation-avada-consultant">
-            <div class="container-bg-image">
-                <div class="container-unlock">
+        <div class="navigation-avada-consultant">
+        </div>
+            <div class="container-bg-image ">
+                <div class="container-unlock ">
 
                 </div>
-                <div class="container-Richard">
+                <div class="container-Richard ">
 
                 </div>
 
             </div>
-
-        </Section>
     </header>
 </template>
 <script>
@@ -30,6 +29,7 @@ export default {
     .container-bg-image{
         height: 800px;
         border: 2px solid red;
+        display: flex;
     }
 
     .container-unlock{
