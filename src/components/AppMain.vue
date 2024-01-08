@@ -119,6 +119,21 @@ export default {
         height: 350px;
         width: 80%;
         border: 2px solid black;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
         
+    }
+    .container-title-brand{
+        height: 150px;
+        width: 100%;
+        border: 2px solid black;
+
+    }
+    .container-different-brand{
+        height: 200px;
+        width: 100%;
+        border: 2px solid black;
+
     }
 </style>
