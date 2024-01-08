@@ -17,5 +17,22 @@ export default {
 }
 </script>
 <style scoped>
-    
+    .container-business-growth{
+        height: 900px;
+        border: 2px solid blue;
+        display: flex;
+
+    }
+    .container-image-Business{
+        height: 100%;
+        width: 50%;
+        border: 2px solid blue;
+
+    }
+    .container-descrzione-brand{
+        height: 100%;
+        width: 50%;
+        border: 2px solid blue;
+
+    }
 </style>
