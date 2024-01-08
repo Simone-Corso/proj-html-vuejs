@@ -3,11 +3,13 @@
         <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
         <div class="navigation-avada-consultant">
         </div>
-            <div class="container-bg-image ">
+
+        <!--realizzerò la parte del container grande, all'interno con due container unlock e Richard-->
+            <div class="container-bg-image">
                 <div class="container-unlock ">
 
                 </div>
-                <div class="container-Richard ">
+                <div class="container-Richard">
 
                 </div>
 
