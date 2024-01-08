@@ -16,6 +16,14 @@
 
             </div>
         </div>
+        <div class="container-social-media-analysis">
+            <div class="container-image-social">
+
+            </div>
+            <div class="container-descrizione-social-proof">
+
+            </div>
+        </div>
         
     </div>
 </template>
