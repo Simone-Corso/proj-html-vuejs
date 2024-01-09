@@ -1,8 +1,8 @@
 <template>
     <header>
         <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
-        <div class="navigation-avada-consultant" :navigationData="navigationData">
-            <NavigationComponent :navigationData="navigationData" />
+        <div class="navigation-avada-consultant">
+            
         </div>
 
         <!--realizzerò la parte del container grande, all'interno con due container unlock e Richard-->
@@ -28,7 +28,7 @@ export default {
         return {
             navigationData: {
 
-                logo: 'avada-marketing-logo',
+                logo: 'avada-marketing-logo.png',
                 
             },
         };
