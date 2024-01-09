@@ -5,6 +5,7 @@
         <div class="navigation-avada-consultant">
           <div class="container-consultant">
             <NavigationComponent logo="/image/avada-marketing-logo.png" />
+          </div>
             <div class="menu-list">
               <div class="container-menu">
                 <ul class="menu-items">
@@ -14,7 +15,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
   
       <!--realizzerò la parte del container grande, all'interno con due container unlock e Richard-->
       <div class="container-bg-image">
@@ -90,8 +91,15 @@
     position: relative;
   }
 
+    .intro-container{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
   .intro-image{
-    width: 100%
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   
 .container-unlock,
