@@ -104,7 +104,19 @@
             </div>
             <div class="container-three-marketing">
                 
+                
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-make-happen">
+    <div class="container-make-happen">
+        <div class="container-left-make">
+
+        </div>
+        <div class="container-right-richard">
+
         </div>
     </div>
 </div>
@@ -320,5 +332,44 @@ export default {
         height: 100%;
         width: 40%;
         border: 1px solid black;
+    }
+
+    .container-marketing{
+        height: 600px;
+        width: 80%;
+        border: 2px solid black;
+
+    }
+    .container-title-btn{
+        height: 300px;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .container-three-image{
+        height: 300px;
+        width: 100%;
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container-first-marketing{
+        height: 100%;
+        width: 30%;
+        border: 1px solid black;
+    }
+    .container-two-marketing{
+        height: 100%;
+        width: 30%;
+        border: 1px solid black;
+        
+    }
+    .container-three-marketing{
+        height: 100%;
+        width: 30%;
+        border: 1px solid black;
+        
     }
 </style>
