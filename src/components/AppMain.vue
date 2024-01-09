@@ -56,8 +56,13 @@
 <div class="container-three-leading">
 
 </div>
-
+<div class="container-btn-leading">
+        <button class="btn-leading">
+        orange
+    </button>
+    </div>
 </div>
+    
 </div>
     
 
@@ -183,8 +188,13 @@ export default {
     .main-leading{
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
+    .container-btn-leading {
+    display: flex;
+    flex-direction: row;
+    }
     .container-leading-organisations{
         height: 800px;
         width: 80%;
