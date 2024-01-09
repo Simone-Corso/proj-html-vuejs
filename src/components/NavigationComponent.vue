@@ -1,7 +1,5 @@
 <template>
-  <div class="navigation-avada-consultant">
     <img :src="this.logo" alt="Logo">
-  </div>
   </template>
   
   <script>
@@ -14,6 +12,10 @@
       },
       logo: {
         type: String,
+        required: true,
+      },
+      menuLista: {
+        type: Array,
         required: true,
       }
     },
@@ -28,9 +30,8 @@
   </script>
   
   <style scoped>
-    .navigation-avada-consultant {
-      height: 100px;
-      border: 2px solid red;
-    }
+   img{
+    margin-top: 2rem;
+   }
   </style>
   
