@@ -52,7 +52,7 @@
         </div>
         <div class="container-two-leading">
 
-</div>
+        </div>
 <div class="container-three-leading">
 
 </div>
@@ -178,5 +178,36 @@ export default {
         height: 80px;
         width: 80%;
         border: 2px solid magenta;
+    }
+
+    .main-leading{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-leading-organisations{
+        height: 800px;
+        width: 80%;
+        border: 2px solid brown;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .container-first-leading{
+        height: 80%;
+        width: 25%;
+        border: 1px solid black;
+    }
+    .container-two-leading{
+        height: 80%;
+        width: 25%;
+        border: 1px solid black;
+    }
+    .container-three-leading{
+        height: 80%;
+        width: 25%;
+        border: 1px solid black;
     }
 </style>
