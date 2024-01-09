@@ -4,6 +4,7 @@
     <div class="main-category">
         <div class="container-business-growth">
             <div class="container-image-business">
+                <img src="/image/image-business.png" alt="Business Image">
 
             </div>
             <div class="container-descrzione-brand">
@@ -15,11 +16,12 @@
 
             </div>
             <div class="container-image-house">
-
+                <img src="/image/image-investor.png" alt="Business Image">
             </div>
         </div>
         <div class="container-social-media-analysis">
             <div class="container-image-social">
+                <img src="/image/image-house.png" alt="Business Image">
 
             </div>
             <div class="container-descrizione-social-proof">
@@ -136,7 +138,7 @@ export default {
         flex-wrap: wrap;
     }
     .container-business-growth{
-        height: 900px;
+        height: 750px;
         width: 80%;
         border: 2px solid blue;
         display: flex;
@@ -156,7 +158,7 @@ export default {
     }
 
     .container-investors-people{
-        height: 900px;
+        height: 750px;
         border: 2px solid yellow;
         display: flex;
 
@@ -175,7 +177,7 @@ export default {
     }
 
     .container-social-media-analysis{
-        height: 900px;
+        height: 750px;
         border: 2px solid green;
         display: flex;
 
