@@ -1,6 +1,6 @@
 <template>
   <div class="navigation-avada-consultant">
-    <img :src="getImageUrl(`/image/${navigationData.logo}?url`)" alt="Logo">
+    <img :src="this.logo" alt="Logo">
   </div>
   </template>
   
@@ -9,12 +9,19 @@
     props: {
       navigationData: {
         type: Object,  
-        required: true,
+        required: false,
+        
       },
+      logo: {
+        type: String,
+        required: true,
+      }
     },
     methods: {
       getImageUrl() {
-        return `/image/${this.navigationData.logo}?url`;
+        console.log(this);
+        //return `/image/${this.navigationData.logo}?url`;
+        
       },
     },
   };

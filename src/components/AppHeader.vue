@@ -2,7 +2,7 @@
     <header>
         <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
         <div class="navigation-avada-consultant">
-            
+            <NavigationComponent logo="/image/avada-marketing-logo.png"/>
         </div>
 
         <!--realizzerò la parte del container grande, all'interno con due container unlock e Richard-->

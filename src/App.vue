@@ -1,6 +1,7 @@
 <template>
   <div>
-    <AppHeader :navigationData="navigationData"/>
+    
+    <AppHeader />
     <AppMain />
     <AppFooter />
   </div>
