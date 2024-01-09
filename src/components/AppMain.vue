@@ -78,6 +78,36 @@
     </div>
 </div>
 </div>
+
+<div class="main-team-avada">
+    <div class="container-team">
+        <div class="container-image-avada">
+
+        </div>
+        <div class="container-descrizione-avada">
+
+        </div>
+    </div>
+</div>
+
+<div class="main-marketing">
+    <div class="container-marketing">
+        <div class="container-title-btn">
+
+        </div>
+        <div class="container-three-image">
+            <div class="container-first-marketing">
+
+            </div>
+            <div class="container-two-marketing">
+                
+            </div>
+            <div class="container-three-marketing">
+                
+            </div>
+        </div>
+    </div>
+</div>
     
 
 </template>
@@ -265,5 +295,30 @@ export default {
         height: 450px;
         width: 100%;
         border: 1px solid green;
+    }
+
+        .main-team-avada{
+            display: flex;
+            justify-content: center;
+        }
+        .container-team{
+        height: 500px;
+        width: 80%;
+        border: 2px solid red;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container-image-avada{
+        height: 100%;
+        width: 40%;
+        border: 1px solid black;
+    }
+
+    .container-descrizione-avada{
+        height: 100%;
+        width: 40%;
+        border: 1px solid black;
     }
 </style>
