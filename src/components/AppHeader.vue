@@ -28,7 +28,7 @@ export default {
         return {
             navigationData: {
 
-                
+                logo: 'avada-marketing-logo',
                 
             },
         };
