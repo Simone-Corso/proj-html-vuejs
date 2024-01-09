@@ -1,7 +1,8 @@
 <template>
     <header>
         <!--realizzerò la macrostruttura del navigation dell'header con un border solid 2px-->
-        <div class="navigation-avada-consultant">
+        <div class="navigation-avada-consultant" :navigationData="navigationData">
+            <NavigationComponent :navigationData="navigationData" />
         </div>
 
         <!--realizzerò la parte del container grande, all'interno con due container unlock e Richard-->
@@ -17,11 +18,22 @@
     </header>
 </template>
 <script>
+import NavigationComponent from './NavigationComponent.vue'; 
+
 export default {
     components: {
-    }
-    
-}
+        NavigationComponent,
+    },
+    data() {
+        return {
+            navigationData: {
+
+                
+                
+            },
+        };
+    },
+};
 </script>
 <style scoped>
     .navigation-avada-consultant{
