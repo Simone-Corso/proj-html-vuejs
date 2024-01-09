@@ -372,4 +372,28 @@ export default {
         border: 1px solid black;
         
     }
+
+        .main-make-happen{
+            display: flex;
+            justify-content: center;
+        }
+    .container-make-happen{
+        height: 600px;
+        width: 80%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .container-left-make{
+        height: 100%;
+        width: 60%;
+        border: 1px solid red;
+    }
+    .container-right-richard{
+        height: 100%;
+        width: 30%;
+        border: 1px solid red;
+    }
 </style>
