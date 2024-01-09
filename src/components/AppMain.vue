@@ -37,12 +37,16 @@
         </div>
     </div>
     </div>
-
-    <div class="main-consultant">
+    <div class="main-marketing">
+    <div class="container-marketing-consultant">
         <div class="container-consultant">
 
         </div>
-    </div>
+
+</div>
+</div>
+    
+
 </template>
 <script>
 export default {
@@ -144,15 +148,21 @@ export default {
 
     }
 
-    .main-consultant{
-        height: 100px;
-        width: 80%;
-        border: 2px solid orangered;
+    .main-marketing{
         display: flex;
         justify-content: center;
-        align-content: center;
-        flex-direction: row;
-        
-
+    }
+    .container-marketing-consultant{
+        height: 100px;
+        width: 80%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-consultant{
+        height: 80px;
+        width: 80%;
+        border: 2px solid magenta;
     }
 </style>
