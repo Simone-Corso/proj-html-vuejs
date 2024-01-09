@@ -64,6 +64,18 @@
 </div>
     
 </div>
+
+<div class="main-work">
+    <div class="container-client">
+
+    </div>
+    <div class="container-image">
+
+    </div>
+    <div class="container-awards">
+
+    </div>
+</div>
     
 
 </template>
