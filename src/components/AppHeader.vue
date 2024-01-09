@@ -4,6 +4,11 @@
         <div class="header-menu">
         <div class="navigation-avada-consultant">
             <NavigationComponent logo="/image/avada-marketing-logo.png"/>
+            <div class="menu-list">
+            <ul>
+          <li v-for="menuItem in navigationData.menuLista" :key="menuItem">{{ menuItem }}</li>
+        </ul>
+    </div>
         </div>
     </div>
 
@@ -39,7 +44,15 @@ export default {
 };
 </script>
 <style scoped>
-
+    .menu-list{
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul,li{
+        list-style-type: none;
+    }
     .header-menu{
         display: flex;
         justify-content: center;
