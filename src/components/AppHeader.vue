@@ -20,7 +20,15 @@
       <!--realizzerò la parte del container grande, all'interno con due container unlock e Richard-->
       <div class="container-bg-image">
         <img src="/image/marketing-intro.jpg" alt="marketing-intro" class="intro-image">
-        <div class="container-unlock"></div>
+        <div class="container-unlock">
+          <h1>
+            Unlock Your Online Growth Potential
+          </h1>
+          <h3>
+            Online marketing to secure customer retention,leads,and males.
+            We focus on the bigger picture.
+          </h3>
+        </div>
         <div class="container-Richard"></div>
       </div>
     </header>
@@ -102,14 +110,24 @@
     object-fit: cover;
   }
   
-.container-unlock,
-.container-Richard {
-  width: 50%;
-  height: 100%;
-  border: 2px solid red;
-  position: absolute; 
-  top: 0;
-}
+  .container-unlock {
+    width: 650px;
+    height: 400px;
+    border: 2px solid red;
+    position: absolute; 
+    top: 50%; 
+    left: 10%;
+    transform: translateY(-50%);
+  }
+
+  .container-Richard {
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+    position: absolute; 
+    top: 0;
+    right: 0; 
+  }
   </style>
   
   
