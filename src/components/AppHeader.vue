@@ -45,16 +45,17 @@
               <i class="fa-solid fa-phone"></i> (555) 802-1234
             </p>
           </div>
-        </div>
-
-        <div class="container-name">
-
+          <div class="container-name-email-phone">
+         <div class="container-name">
+          <p>Your Name*</p>
         </div>
         <div class="container-email">
-          
+          Your Email*
         </div>
         <div class="container-number">
-          
+          Your Phone Number*
+        </div>
+      </div>
         </div>
       </div>
     </header>
@@ -206,6 +207,24 @@
   .number-phone{
     color: #F86011;
     margin-top: 0;
+  }
+
+
+    .container-name-email-phone{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+  .container-name,
+  .container-email,
+  .container-number{
+    height: 50px;
+    width: 80%;
+    border: 2px solid#F4F4F6;
+    margin-top: 1rem;
+    border-radius: .5rem;
   }
   </style>
   
