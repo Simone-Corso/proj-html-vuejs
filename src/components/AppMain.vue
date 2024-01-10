@@ -2,35 +2,8 @@
     <div>
         <CategoryComponent/>
         <BrandComponent/>
+        <LeadingComponent/>
     </div>
-    <div class="main-marketing">
-    <div class="container-marketing-consultant">
-        <div class="container-consultant">
-
-        </div>
-
-</div>
-</div>
-<div class="main-leading">
-    <div class="container-leading-organisations">
-        <div class="container-first-leading">
-
-        </div>
-        <div class="container-two-leading">
-
-        </div>
-<div class="container-three-leading">
-
-</div>
-<div class="container-btn-leading">
-        <button class="btn-leading">
-        orange
-    </button>
-    </div>
-</div>
-    
-</div>
-
 <div class="main-work">
     <div class="container-big">
     <div class="container-client">
@@ -90,68 +63,19 @@
 <script>
 import CategoryComponent from './CategoryComponent.vue';
 import BrandComponent from './BrandComponent.vue';
-
+import LeadingComponent from './LeadingComponent.vue';
 export default {
     components: {CategoryComponent, 
                 BrandComponent,
+                LeadingComponent,
                 }
 
 }
 </script>
 <style scoped>
-    .main-marketing{
-        display: flex;
-        justify-content: center;
-    }
-    .container-marketing-consultant{
-        height: 100px;
-        width: 80%;
-        border: 2px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container-consultant{
-        height: 80px;
-        width: 80%;
-        border: 2px solid magenta;
-    }
+    
 
-    .main-leading{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .container-btn-leading {
-    display: flex;
-    flex-direction: row;
-    }
-    .container-leading-organisations{
-        height: 800px;
-        width: 80%;
-        border: 2px solid brown;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-
-    .container-first-leading{
-        height: 80%;
-        width: 25%;
-        border: 1px solid black;
-    }
-    .container-two-leading{
-        height: 80%;
-        width: 25%;
-        border: 1px solid black;
-    }
-    .container-three-leading{
-        height: 80%;
-        width: 25%;
-        border: 1px solid black;
-    }
+    
 
     .main-work{
         display: flex;

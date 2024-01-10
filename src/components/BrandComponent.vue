@@ -9,6 +9,14 @@
         </div>
     </div>
     </div>
+    <div class="main-marketing">
+    <div class="container-marketing-consultant">
+        <div class="container-consultant">
+
+        </div>
+
+</div>
+</div>
 </template>
 <script>
 export default {
@@ -42,5 +50,22 @@ export default {
         width: 100%;
         border: 2px solid black;
 
+    }
+    .main-marketing{
+        display: flex;
+        justify-content: center;
+    }
+    .container-marketing-consultant{
+        height: 100px;
+        width: 80%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-consultant{
+        height: 80px;
+        width: 80%;
+        border: 2px solid magenta;
     }
 </style>
