@@ -36,6 +36,8 @@
         <div class="container-consultant">
             <img src="/image/marketing-expert-cta.png" alt="expert-cta" class="image-expert-cta">
 
+
+
         </div>
 </div>
 </div>
@@ -115,11 +117,13 @@ export default {
         height: 80px;
         width: 80%;
         border: 2px solid magenta;
+        border-radius: 10px;
     }
 
     .image-expert-cta{
         border-radius: 50%;
         height: 80px;
         width: auto;
+        margin-left: 2.5rem;
     }
 </style>
