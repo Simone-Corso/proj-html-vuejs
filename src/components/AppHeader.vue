@@ -34,7 +34,7 @@
         </div>
         <div class="container-Richard">
           <div class="container-profile-richard">
-
+            <img src="/image/marketing-consultant-expert.jpg" alt="marketing-consultant" class="image-richard">
           </div>
         </div>
       </div>
@@ -155,6 +155,20 @@
     position: absolute;
     top: 6.2rem;
     right: 470px;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+
+  .container-profile-richard{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1rem;
+  }
+  .image-richard{
+    border-radius: 50%;
+    margin-top: 1rem;
   }
   </style>
   
