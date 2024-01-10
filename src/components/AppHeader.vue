@@ -28,6 +28,9 @@
             Online marketing to secure customer retention,leads,and males.
             We focus on the bigger picture.
           </h3>
+          <button class="btn-unlock">
+
+          </button>
         </div>
         <div class="container-Richard"></div>
       </div>
@@ -99,6 +102,19 @@
     position: relative;
   }
 
+  h1{
+    font-size: 65px;
+    line-height: 60px;
+    color: white;
+    margin-top: 1rem;
+  }
+
+  h3{
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+  
+  }
     .intro-container{
         width: 100%;
         height: 100%;
