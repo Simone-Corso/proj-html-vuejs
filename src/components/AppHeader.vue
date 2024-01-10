@@ -32,7 +32,11 @@
             Our Services <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
-        <div class="container-Richard"></div>
+        <div class="container-Richard">
+          <div class="container-profile-richard">
+
+          </div>
+        </div>
       </div>
     </header>
   </template>
@@ -145,12 +149,12 @@
   }
 
   .container-Richard {
-    width: 50%;
-    height: 100%;
+    width: 460px;
+    height: 550px;
     border: 2px solid red;
-    position: absolute; 
-    top: 0;
-    right: 0; 
+    position: absolute;
+    top: 6.2rem;
+    right: 470px;
   }
   </style>
   
