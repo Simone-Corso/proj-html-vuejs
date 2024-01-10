@@ -34,6 +34,7 @@
     <div class="main-marketing">
     <div class="container-marketing-consultant">
         <div class="container-consultant">
+            <img src="/image/marketing-expert-cta.png" alt="expert-cta" class="image-expert-cta">
 
         </div>
 </div>
@@ -114,5 +115,11 @@ export default {
         height: 80px;
         width: 80%;
         border: 2px solid magenta;
+    }
+
+    .image-expert-cta{
+        border-radius: 50%;
+        height: 80px;
+        width: auto;
     }
 </style>
