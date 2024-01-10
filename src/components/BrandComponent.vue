@@ -5,7 +5,7 @@
             <h1>
                 Some Brands We Work With
             </h1>
-            <h3>Quisque aliquet, libero consequat elementum convallis</h3>
+            <h3>Quisque aliquet, libero consequat elementum convallis.</h3>
         </div>
         <div class="container-different-brand">
 
@@ -17,7 +17,6 @@
         <div class="container-consultant">
 
         </div>
-
 </div>
 </div>
 </template>
@@ -43,7 +42,7 @@ export default {
         
     }
     .container-title-brand{
-        height: 150px;
+        height: 100px;
         width: 100%;
         border: 2px solid black;
         display: flex;
@@ -55,10 +54,13 @@ export default {
 
     h1{
         font-size: 45px;
+        margin-bottom: 0;
     }
 
     h3{
         font-size: 20px;
+        margin-top: .5rem;
+        
     }
     .container-different-brand{
         height: 200px;
