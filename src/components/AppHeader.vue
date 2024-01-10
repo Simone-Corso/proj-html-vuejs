@@ -42,9 +42,19 @@
               Marketing Consultant Expert
             </h4>
             <p class="number-phone">
-              (555) 802-1234
+              <i class="fa-solid fa-phone"></i> (555) 802-1234
             </p>
           </div>
+        </div>
+
+        <div class="container-name">
+
+        </div>
+        <div class="container-email">
+          
+        </div>
+        <div class="container-number">
+          
         </div>
       </div>
     </header>
@@ -191,6 +201,11 @@
 
   .title-richard{
     color: black;
+  }
+
+  .number-phone{
+    color: #F86011;
+    margin-top: 0;
   }
   </style>
   
