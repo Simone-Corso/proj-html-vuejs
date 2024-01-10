@@ -55,6 +55,12 @@
         <div class="container-number">
           Your Phone Number*
         </div>
+        <div class="container-get-callback">
+          <button class="btn-get-callback">
+            Get a Callback
+          </button>
+          <p class="submitting">By submitting my data i agree to be contacted</p>
+        </div>
       </div>
         </div>
       </div>
@@ -174,11 +180,11 @@
   }
 
   .container-Richard {
-    width: 460px;
-    height: 550px;
+    width: 420px;
+    height: 590px;
     border: 2px solid red;
     position: absolute;
-    top: 6.2rem;
+    top: 4.2rem;
     right: 470px;
     background-color: white;
     border-radius: 1rem;
@@ -225,6 +231,23 @@
     border: 2px solid#F4F4F6;
     margin-top: 1rem;
     border-radius: .5rem;
+  }
+
+  .btn-get-callback{
+    height: 50px;
+    width: 375px;
+    border: 2px solid#F4F4F6;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    font-size: 18px;
+    background-color: #F86011;
+    color: white;
+  }
+
+  .submitting{
+    text-align: center;
+    font-size: 13px;
+    color: #777777;
   }
   </style>
   
