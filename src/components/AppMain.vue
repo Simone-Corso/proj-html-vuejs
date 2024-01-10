@@ -3,7 +3,7 @@
         <CategoryComponent/>
         <BrandComponent/>
         <LeadingComponent/>
-        <GrowhComponent />
+        <GrowthComponent />
     </div>
 <div class="main-team-avada">
     <div class="container-team">
@@ -51,12 +51,12 @@
 import CategoryComponent from './CategoryComponent.vue';
 import BrandComponent from './BrandComponent.vue';
 import LeadingComponent from './LeadingComponent.vue';
-import GrowhComponent from './GrowhComponent.vue';
+import GrowthComponent from './GrowthComponent.vue';
 export default {
     components: {CategoryComponent, 
                 BrandComponent,
                 LeadingComponent,
-                GrowhComponent,
+                GrowthComponent,
                 }
 
 }
