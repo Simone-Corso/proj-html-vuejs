@@ -6,7 +6,14 @@
 
             </div>
             <div class="container-descrzione-brand">
+                <h1>
+                    Increase Brand Awareness
+                </h1>
 
+                <P>
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis 
+                    gravida et at massa
+                </P>
             </div>
         </div>
         <div class="container-investors-people">
@@ -40,6 +47,7 @@ export default {
         align-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-top: 5rem;
     }
     .container-business-growth{
         height: 750px;
