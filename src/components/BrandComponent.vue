@@ -9,6 +9,25 @@
         </div>
         <div class="container-different-brand">
 
+            <article>
+                <img src="/image/abstract.png" alt="abstract">
+            </article>
+            <article>
+                <img src="/image/cglobal.png" alt="cglobal">
+            </article>
+            <article>
+                <img src="/image/next.png" alt="next">
+            </article>
+            <article>
+                <img src="/image/hemisferio.png" alt="hemisferio">
+            </article>
+            <article>
+                <img src="/image/spaces.png" alt="spaces">
+            </article>
+            <article>
+                <img src="/image/digitalbox.png" alt="digitalbox">
+            </article>
+
         </div>
     </div>
     </div>
@@ -66,6 +85,9 @@ export default {
         height: 200px;
         width: 100%;
         border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
     .main-marketing{
