@@ -68,23 +68,37 @@
                     </article>
             </div>
         </div>
-        <div class="container-awards">
+        <article class="title-awards-first">
             <h1 class="title-awards">
                 Awards
 
             </h1>
+        </article>
+        <div class="container-awards">
+            <div class="logo-awards">
+                <img src="/image/award-a.png" alt="" class="image-awards-a">
+        
+            </div>
+            <h3 class="descrizione-awards">
 
+</h3>
+            <div class="logo-awards">
+                <img src="/image/award-b.png" alt="" class="image-awards-b">
+                <h3 class="descrizione-awards">
+
+</h3>
+</div>
             <article class="logo-awards">
-                <img src="" alt="">
+                <img src="/image/award-c.png" alt="" class="image-awards-c">
+                <h3 class="descrizione-awards">
+
+</h3>
             </article>
             <article class="logo-awards">
-                <img src="" alt="">
-            </article>
-            <article class="logo-awards">
-                <img src="" alt="">
-            </article>
-            <article class="logo-awards">
-                <img src="" alt="">
+                <img src="/image/award-d.png" alt="" class="image-awards-d">
+                <h3 class="descrizione-awards">
+
+</h3>
             </article>
             
         </div>
@@ -177,5 +191,14 @@
         width: 80%;
         border: 1px solid green;
         margin-top: 3rem;
+        display: flex;
     }
+
+    .image-awards-a{
+        height: 140px;
+    }
+    .image-awards-b{
+        height: 140px;
+    }
+    
 </style>

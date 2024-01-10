@@ -2,6 +2,7 @@
     <div class="main-team-avada">
     <div class="container-team">
         <div class="container-image-avada">
+            <img src="/image/large-testimonial-600x583.jpg" alt="" class="image-team">
 
         </div>
         <div class="container-descrizione-avada">
