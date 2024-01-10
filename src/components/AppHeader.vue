@@ -136,6 +136,14 @@
     transform: translateY(-50%);
   }
 
+  .btn-unlock{
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+    border-radius: .5rem;
+    border: none;
+  }
+
   .container-Richard {
     width: 50%;
     height: 100%;
