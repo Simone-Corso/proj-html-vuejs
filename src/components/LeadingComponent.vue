@@ -79,7 +79,7 @@ export default {
     }
     .container-leading-organisations{
         height: 1000px;
-        width: 80%;
+        width: 65%;
         border: 2px solid brown;
         display: flex;
         justify-content: space-around;
@@ -89,7 +89,7 @@ export default {
 
     .container-first-leading{
         height: 80%;
-        width: 25%;
+        width: 30%;
         border: 1px solid black;
     }
 
@@ -100,7 +100,7 @@ export default {
     }
     .container-two-leading{
         height: 80%;
-        width: 25%;
+        width: 30%;
         border: 1px solid black;
     }
 
@@ -114,7 +114,7 @@ export default {
     }
     .container-three-leading{
         height: 80%;
-        width: 25%;
+        width: 30%;
         border: 1px solid black;
     }
 
