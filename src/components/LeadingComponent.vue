@@ -80,7 +80,6 @@ export default {
     .container-leading-organisations{
         height: 1000px;
         width: 65%;
-        border: 2px solid brown;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -90,7 +89,7 @@ export default {
     .container-first-leading{
         height: 80%;
         width: 30%;
-        border: 1px solid black;
+    
     }
 
     .image-leading{
@@ -101,7 +100,7 @@ export default {
     .container-two-leading{
         height: 80%;
         width: 30%;
-        border: 1px solid black;
+
     }
 
     .btn-leading{
@@ -115,11 +114,9 @@ export default {
     .container-three-leading{
         height: 80%;
         width: 30%;
-        border: 1px solid black;
     }
 
     .container-percent{
-        border: 1px solid red;
         text-align: left;
     }
 </style>

@@ -46,7 +46,7 @@
             </p>
           </div>
           <div class="container-name-email-phone">
-         <div class="container-name">
+         <div class="container-name"> 
           <p>Your Name*</p>
         </div>
         <div class="container-email">
@@ -87,8 +87,6 @@
   
   <style scoped>
   .container-menu {
-    
-    border: 2px solid magenta;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,8 +96,10 @@
   .menu-items {
     list-style-type: none;
     display: flex;
-    flex-grow: 1; 
-  }
+    flex-grow: 1;
+    margin-top: 3rem;
+}
+  
   
   .menu-items li {
     margin-right: 10px; 
@@ -113,21 +113,17 @@
   .navigation-avada-consultant {
     height: 100px;
     width: 80%;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between; 
   }
   
   .container-consultant {
-     
-    border: 2px solid cadetblue;
     display: flex;
     align-items: center;
   }
   
   .container-bg-image {
     height: 600px;
-    border: 2px solid red;
     display: flex;
     position: relative;
   }
@@ -164,7 +160,6 @@
   .container-unlock {
     width: 650px;
     height: 400px;
-    border: 2px solid red;
     position: absolute; 
     top: 50%; 
     left: 10%;
@@ -182,7 +177,6 @@
   .container-Richard {
     width: 420px;
     height: 590px;
-    border: 2px solid red;
     position: absolute;
     top: 4.2rem;
     right: 470px;

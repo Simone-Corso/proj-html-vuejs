@@ -54,7 +54,6 @@ export default {
     .container-marketing{
         height: 600px;
         width: 80%;
-        border: 2px solid black;
         display: flex;
         align-items: center;
 
@@ -62,7 +61,6 @@ export default {
     .container-title-btn{
         height: 300px;
     width: 40%;
-    border: 1px solid red;
     margin-left: 5rem;
 }
     
@@ -70,7 +68,6 @@ export default {
     .container-three-image{
         height: 300px;
     width: 80%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
 
@@ -79,23 +76,27 @@ export default {
     .container-first-marketing{
         height: 100%;
         width: 30%;
-        border: 1px solid black;
     }
     .container-two-marketing{
         height: 100%;
         width: 30%;
-        border: 1px solid black;
         
     }
     .container-three-marketing{
         height: 100%;
         width: 30%;
-        border: 1px solid black;
         
     }
 
     .btn-explore{
         margin-left: auto; 
+        width: 180px;
+        height: 40px;
+        background: #F86011;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
     }
 
     .container-btn{

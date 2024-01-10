@@ -33,7 +33,6 @@ export default {
         .container-team{
         height: 500px;
         width: 80%;
-        border: 2px solid red;
         display: flex;
         justify-content: center;
 
@@ -42,13 +41,11 @@ export default {
     .container-image-avada{
         height: 100%;
         width: 40%;
-        border: 1px solid black;
     }
 
     .container-descrizione-avada{
         height: 100%;
         width: 30%;
-        border: 1px solid black;
     }
 
     .image-team{

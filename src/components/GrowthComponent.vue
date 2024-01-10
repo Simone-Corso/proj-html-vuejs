@@ -119,7 +119,6 @@
     justify-content: space-between;
     height: 500px;
     width: 80%;
-    border: 2px solid black;
     margin-bottom: 10px;
     }
 
@@ -128,14 +127,12 @@
         justify-content: space-between;
         height: 600px;
         width: 80%;
-        border: 2px solid black;
         margin-bottom: 10px; 
     }
 
     .container-client {
         height: 100%;
     width: 35%;
-    border: 1px solid red;
     margin-left: auto;
     margin-top: 3.5rem;
     }
@@ -143,14 +140,12 @@
     .container-image {
         height: 100%; 
         width: 50%;
-        border: 1px solid red;
         overflow: hidden;
     }
 
     .container-loghi{
         height: 100%; 
         width: 50%;
-        border: 1px solid red;
         overflow: hidden;
         margin-top: 3rem;
     }
@@ -189,9 +184,10 @@
     .container-awards {
         height: 300px;
         width: 80%;
-        border: 1px solid green;
         margin-top: 3rem;
         display: flex;
+        justify-content: center;
+
     }
 
     .image-awards-a{
@@ -200,5 +196,20 @@
     .image-awards-b{
         height: 140px;
     }
-    
+
+    .image-awards-c{
+        height: 140px;
+    }
+    .image-awards-d{
+        height: 140px;
+    }
+    .btn-work{
+    width: 180px;
+    height: 40px;
+    background: #F86011;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    }
 </style>

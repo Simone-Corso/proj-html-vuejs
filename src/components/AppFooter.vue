@@ -2,18 +2,37 @@
     <div class="footer-business">
         <div class="container-footer-business">
             <div class="container-grow">
+                <FooterNav
+  :title="navigationData.title"
+  :menuListaUno="navigationData.menuListaUno"
+  :menuListaDue="navigationData.menuListaDue"
+  :menuListaTre="navigationData.menuListaTre"
+  :navigationFooter="navigationData.navigationFooter"
+/>
 
-            </div>
-            <div class="container-contatt">
-                
             </div>
         </div>
     </div>
 </template>
 <script>
+
+import FooterNav from './FooterNav.vue';
+
 export default {
-    
-}
+    components: {
+      FooterNav,
+    },
+    data() {
+      return {
+        navigationData: {
+          title: 'Grow Your Online Business Strategically,and improve Customer Retention',
+          menuListaUno: ["Services", "Marketing Plan", "Sales Development", "Digital Marketing", "Pricing", "Why Us"],
+          menuListaDue: ["Resources", "Learning Center", "Video Tutorial", "Customers", "Blog",],
+          menuListaTre: ["Company", "Who We Are", "Contact Us", "Careers",],
+        },
+      };
+    },
+  };
 </script>
 <style scoped>
 
@@ -25,7 +44,6 @@ justify-content: end;
 .container-footer-business{
 height: 700px;
 width: 90%;
-border: 1px solid red;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -33,14 +51,8 @@ align-items: center;
 
 .container-grow{
 height: 80%;
-width: 40%;
+width: 100%;
 border: 1px solid black;
 }
 
-.container-contatt{
-    height: 80%;
-width: 60%;
-border: 1px solid black;
-}
-    
 </style>

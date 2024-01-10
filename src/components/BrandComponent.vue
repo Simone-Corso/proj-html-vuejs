@@ -80,7 +80,6 @@ export default {
     .container-brand{
         height: 350px;
         width: 80%;
-        border: 2px solid black;
         display: flex;
         align-content: center;
         flex-direction: column;
@@ -89,7 +88,6 @@ export default {
     .container-title-brand{
         height: 100px;
         width: 100%;
-        border: 2px solid black;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -110,7 +108,6 @@ export default {
     .container-different-brand{
         height: 200px;
         width: 100%;
-        border: 2px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,7 +149,6 @@ export default {
     .container-marketing-consultant{
         height: 100px;
         width: 80%;
-        border: 2px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -160,7 +156,6 @@ export default {
     .container-consultant{
         height: 80px;
         width: 80%;
-        border: 2px solid magenta;
         border-radius: 10px;
         display: flex;
         align-items: center;

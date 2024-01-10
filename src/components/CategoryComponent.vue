@@ -80,20 +80,17 @@ export default {
     .container-business-growth{
         height: 750px;
         width: 80%;
-        border: 2px solid blue;
         display: flex;
 
     }
     .container-image-business{
         height: 100%;
         width: 50%;
-        border: 2px solid blue;
 
     }
     .container-descrzione-brand{
         height: 567px;
         width: 547px;
-        border: 2px solid blue;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -102,7 +99,6 @@ export default {
 
     .container-investors-people{
         height: 750px;
-        border: 2px solid yellow;
         display: flex;
         justify-content: flex-end;
 
@@ -110,7 +106,6 @@ export default {
     .container-descrizione-house{
         height: 567px;
         width: 547px;
-        border: 2px solid yellow;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -120,29 +115,44 @@ export default {
     .container-image-house{
         height: 100%;
         width: 50%;
-        border: 2px solid yellow;
 
     }
 
     .container-social-media-analysis{
         height: 750px;
-        border: 2px solid green;
         display: flex;
 
     }
     .container-image-social{
         height: 100%;
         width: 50%;
-        border: 2px solid green;
 
     }
     .container-descrizione-social-proof{
         height: 567px;
         width: 547px;
-        border: 2px solidy green;
         display: flex;
         justify-content: center;
         flex-direction: column;
+}
 
-    }
+.btn-get-consultantion{
+
+    width: 180px;
+    height: 40px;
+    background: #F86011;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
 </style>
