@@ -34,17 +34,36 @@
                     integer consectetur.
                  </h3>
             </div>
-            <div class="container-image">
+            <div class="container-loghi">
                 <article class="container-accountability">
-                    <img src="" alt="">
+                    <img src="/image/accountability.png" alt="">
+                    <h1 class="title-loghi">
+                        Accountability
+                    </h1>
+
+                    <h3 class="descrizione-loghi">
+                        Curabitur ac leo nunc vestibulum
+                    </h3>
 
                 </article>
                 <article class="container-trasparency">
-                    <img src="" alt="">
+                    <img src="/image/trasparency.png" alt="">
+                    <h1 class="title-loghi">
+                        Trasparency
+                    </h1>
+                    <h3 class="descrizione-loghi">
+                        Curabitur ac leo nunc vestibulum
+                    </h3>
 
                 </article>
                     <article class="container-investiment">
-                        <img src="" alt="">
+                        <img src="/image/investiment.png" alt="">
+                        <h1 class="title-loghi">
+                            Investiment
+                        </h1>
+                        <h3 class="descrizione-loghi">
+                            Curabitur ac leo nunc vestibulum
+                        </h3>
 
                     </article>
             </div>
@@ -95,6 +114,18 @@
         width: 50%;
         border: 1px solid red;
         overflow: hidden;
+    }
+
+    .container-loghi{
+        height: 100%; 
+        width: 50%;
+        border: 1px solid red;
+        overflow: hidden;
+        margin-top: 3rem;
+    }
+
+    .title-loghi{
+        font-size: 25px;
     }
 
     .image-we-boost {
