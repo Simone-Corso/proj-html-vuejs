@@ -46,7 +46,19 @@ export default {
         height: 150px;
         width: 100%;
         border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
 
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    h3{
+        font-size: 20px;
     }
     .container-different-brand{
         height: 200px;
