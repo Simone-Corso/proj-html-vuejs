@@ -10,22 +10,22 @@
         <div class="container-different-brand">
 
             <article>
-                <img src="/image/abstract.png" alt="abstract">
+                <img src="/image/abstract.png" alt="abstract" class="image-brand">
             </article>
             <article>
-                <img src="/image/cglobal.png" alt="cglobal">
+                <img src="/image/cglobal.png" alt="cglobal" class="image-brand">
             </article>
             <article>
-                <img src="/image/next.png" alt="next">
+                <img src="/image/next.png" alt="next" class="image-brand">
             </article>
             <article>
-                <img src="/image/hemisferio.png" alt="hemisferio">
+                <img src="/image/hemisferio.png" alt="hemisferio" class="image-brand">
             </article>
             <article>
-                <img src="/image/spaces.png" alt="spaces">
+                <img src="/image/spaces.png" alt="spaces" class="image-brand">
             </article>
             <article>
-                <img src="/image/digitalbox.png" alt="digitalbox">
+                <img src="/image/digitalbox.png" alt="digitalbox" class="image-brand">
             </article>
 
         </div>
@@ -89,6 +89,14 @@ export default {
         justify-content: center;
         align-items: center;
 
+    }
+
+    .image-brand{
+        height: 45px;
+    }
+
+    article{
+        margin-right: 1.5rem;
     }
     .main-marketing{
         display: flex;
