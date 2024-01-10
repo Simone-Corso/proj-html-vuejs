@@ -69,7 +69,24 @@
             </div>
         </div>
         <div class="container-awards">
-            <!-- Contenuto di container-awards -->
+            <h1 class="title-awards">
+                Awards
+
+            </h1>
+
+            <article class="logo-awards">
+                <img src="" alt="">
+            </article>
+            <article class="logo-awards">
+                <img src="" alt="">
+            </article>
+            <article class="logo-awards">
+                <img src="" alt="">
+            </article>
+            <article class="logo-awards">
+                <img src="" alt="">
+            </article>
+            
         </div>
     </div>
 </template>
@@ -159,5 +176,6 @@
         height: 300px;
         width: 80%;
         border: 1px solid green;
+        margin-top: 3rem;
     }
 </style>
