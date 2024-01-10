@@ -14,10 +14,26 @@
                     lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis 
                     gravida et at massa
                 </P>
+
+                <button class="btn-get-consultantion">
+                    Get a Consultantion
+                </button>
             </div>
         </div>
         <div class="container-investors-people">
             <div class="container-descrizione-house">
+                <h1>
+                    In-House Sales Training
+                </h1>
+
+                <P>
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis 
+                    gravida et at massa
+                </P>
+
+                <button class="btn-get-consultantion">
+                    Get a Consultantion
+                </button>
 
             </div>
             <div class="container-image-house">
@@ -30,6 +46,18 @@
 
             </div>
             <div class="container-descrizione-social-proof">
+                <h1>
+                    Harness Your Social Proof
+                </h1>
+
+                <P>
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat luctus. Nullam sit amet ante sed orci convallis 
+                    gravida et at massa
+                </P>
+
+                <button class="btn-get-consultantion">
+                    Get a Consultantion
+                </button>
 
             </div>
         </div>
@@ -63,9 +91,12 @@ export default {
 
     }
     .container-descrzione-brand{
-        height: 100%;
-        width: 50%;
+        height: 567px;
+        width: 547px;
         border: 2px solid blue;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
     }
 
@@ -73,12 +104,17 @@ export default {
         height: 750px;
         border: 2px solid yellow;
         display: flex;
+        justify-content: flex-end;
 
     }
     .container-descrizione-house{
-        height: 100%;
-        width: 50%;
+        height: 567px;
+        width: 547px;
         border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
 
     }
     .container-image-house{
@@ -101,9 +137,12 @@ export default {
 
     }
     .container-descrizione-social-proof{
-        height: 100%;
-        width: 50%;
-        border: 2px solid green;
+        height: 567px;
+        width: 547px;
+        border: 2px solidy green;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
     }
 </style>
