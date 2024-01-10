@@ -2,7 +2,10 @@
     <div class="main-brand">
     <div class="container-brand">
         <div class="container-title-brand">
-
+            <h1>
+                Some Brands We Work With
+            </h1>
+            <h3>Quisque aliquet, libero consequat elementum convallis</h3>
         </div>
         <div class="container-different-brand">
 
