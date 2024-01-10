@@ -35,6 +35,15 @@
         <div class="container-Richard">
           <div class="container-profile-richard">
             <img src="/image/marketing-consultant-expert.jpg" alt="marketing-consultant" class="image-richard">
+            <h3 class="title-richard">
+              Richard Madsen
+            </h3>
+            <h4>
+              Marketing Consultant Expert
+            </h4>
+            <p class="number-phone">
+              (555) 802-1234
+            </p>
           </div>
         </div>
       </div>
@@ -119,6 +128,11 @@
     text-align: justify;
   
   }
+
+  h4{
+    font-size: 20px;
+    margin-top: 0;
+  }
     .intro-container{
         width: 100%;
         height: 100%;
@@ -163,12 +177,20 @@
   .container-profile-richard{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: white;
     border-radius: 1rem;
   }
   .image-richard{
     border-radius: 50%;
     margin-top: 1rem;
+    height: 80px;
+    width: 80px;
+  }
+
+  .title-richard{
+    color: black;
   }
   </style>
   
